@@ -1,0 +1,27 @@
+INCIDENT REASON: Service Connection Refused
+
+=== RCA METRICS & ANALYSIS REPORT ===
+Time: 2026-03-27 09:29:51
+
+--- 🤖 AUTOMATED ANALYSIS & FIXES ---
+❌ ROOT CAUSE: The Docker container 'target-app' has crashed or stopped.
+💡 SUGGESTED FIX: Restart the container using command: `docker restart target-app`
+
+--- 🐳 DOCKER CONTAINER LOGS ---
+172.17.0.1 - - [27/Mar/2026 09:28:56] "GET /health HTTP/1.1" 200 -
+172.17.0.1 - - [27/Mar/2026 09:29:01] "GET /health HTTP/1.1" 200 -
+172.17.0.1 - - [27/Mar/2026 09:29:06] "GET /health HTTP/1.1" 200 -
+172.17.0.1 - - [27/Mar/2026 09:29:11] "GET /health HTTP/1.1" 200 -
+172.17.0.1 - - [27/Mar/2026 09:29:16] "GET /health HTTP/1.1" 200 -
+
+--- 💻 HOST SYSTEM METRICS ---
+[Memory]
+               total        used        free      shared  buff/cache   available
+Mem:            7832        2099        5438           3         465        5732
+Swap:           2048           0        2048
+
+[Disk]
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  6.3G  950G   1% /
+=====================================
+    

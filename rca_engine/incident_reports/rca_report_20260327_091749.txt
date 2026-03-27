@@ -1,0 +1,18 @@
+INCIDENT REASON: Service Connection Refused
+
+    === RCA METRICS REPORT ===
+    Time: 2026-03-27 09:17:49
+    
+    --- CPU Load ---
+     09:17:48 up  1:19,  1 user,  load average: 0.10, 0.13, 0.12
+    
+    --- Memory Usage (MB) ---
+                   total        used        free      shared  buff/cache   available
+Mem:            7832        2006        5599           3         394        5825
+Swap:           2048           0        2048
+    
+    --- Disk Usage ---
+    Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  6.3G  950G   1% /
+    ==========================
+    
